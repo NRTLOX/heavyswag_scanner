@@ -242,7 +242,7 @@ pip install -r requirements.txt
 
 ### Запуск отдельных модулей
 ```bash
-python scanner/modules/osint/dns_lookup.py
+python -m scanner.modules.osint.dns_lookup.py
 ```
 ![gif](https://github.com/zhabii/heavyswag_public/blob/main/images/module_run.gif)
 
